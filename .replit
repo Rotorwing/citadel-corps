@@ -1,4 +1,3 @@
-
 hidden = [".config"]
 run = "node index.js"
 

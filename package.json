@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  },
+  "name": "citadel-corps",
+  "description": "Citadel Corps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rotorwing/citadel-corps.git"
+  },
+  "author": "Jomity and Rotorwing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rotorwing/citadel-corps/issues"
+  },
+  "homepage": "https://github.com/Rotorwing/citadel-corps#readme"
+}
