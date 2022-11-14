@@ -6,9 +6,11 @@ const hostname = '0.0.0.0';
 const root = "./web";
 
 const server = http.createServer((req, res) => {
+    if (!req.url.startsWith("/")) return;
+
     res.setHeader('Content-Type', 'text/html');
 
-    var path = (req.url == "/" || req.url == "*") ? "/index.html" : req.url;
+    var path = req.url == "/" ? "/index.html" : req.url;
 
     fs.readFile(root + path, 'utf-8', (err, data) => {
         if (err) {
